@@ -4,7 +4,10 @@
     <groupId>com.mycompany</groupId>
     <artifactId>sample-oop-project</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>dekorator</module>
+    </modules>
+    <packaging>pom</packaging>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
